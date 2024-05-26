@@ -2,7 +2,7 @@
 layout: post
 title: "My Testing Post"
 date: 2024-05-25 03:20:42 +07:00
-categories: [PERSONAL]
+docs: [PERSONAL]
 tags: [Hello World]     # TAG names should always be lowercase
 description: This is just a test post
 image: assets/img/Post/My-first-post-test/notalone.gif
