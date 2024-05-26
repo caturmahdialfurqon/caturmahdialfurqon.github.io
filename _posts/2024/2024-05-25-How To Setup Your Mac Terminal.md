@@ -2,7 +2,7 @@
 layout: post
 title: "How To Setup Your Mac Terminal"
 date: 2024-05-25 18:18:15 +07:00
-docs: [Tips,Trick]
+categories: [Tips,Trick]
 tags: [Tips&Trick]
 description: Customize Your Mac Terminal (Iterm2) with ZSH
 image: assets/img/Post/How-To-Setup-Your-Mac-Terminal/ack.gif
