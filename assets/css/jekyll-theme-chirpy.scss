@@ -11,26 +11,26 @@
 
 
 #panel-wrapper .panel-heading{
-  color:#62ea00;
+  color: #00cc00;
   font-size:inherit;
   font-weight:600
 }
 
 h5,h4,h3,h2,h1{
-color: #e3527b;
+color:  #00cc00;
 }
 
 #sidebar ul li.nav-item.active .nav-link {
-color: #e3527b;
+color: #ff8000;
 background-color: var(--sidebar-hover-bg);
 }
 
 #sidebar ul li.nav-link.nav-link {
-color: #7cc0fc;
+color:  #00cc00;
 }
 
 #sidebar ul li.nav-item a.nav-link {
-color: #3dacec;
+color:  #00cc00;
 }
 
 #sidebar .sidebar-bottom .mode-toggle, #sidebar .sidebar-bottom a {
@@ -38,7 +38,7 @@ width: 1.75rem;
 height: 1.75rem;
 margin-bottom: 0.5rem;
 border-radius: 50%;
-color: #62ea00;
+color:  #00cc00;
 background-color: var(--sidebar-btn-bg);
 text-align: center;
 display: flex;
@@ -47,7 +47,7 @@ justify-content: center;
 }
 
 #topbar i {
-color: #62ea00;
+color:  #00cc00;
 
 }
 
