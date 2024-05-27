@@ -7,18 +7,17 @@ alt: "image alt text"
 
 <!-- ![Furqonic](https://res.cloudinary.com/dlked0a5j/image/upload/v1716549244/photo_2024-05-24_18.13.35_g9fwb2.jpg) -->
 <!-- <img src="/assets/img/Post/My-first-post-test/AV4.jpeg" w="700" h="400"> -->
-![Desktop View](/assets/img/Post/My-first-post-test/meh.gif){: w="200" h="500" .left }
+![meh](/assets/img/docimg/bean.gif){: w="200" h="500" .right }
 
-<h1> Hi,Furqon Here (call 'alfynn) 👋</h1>
+## Hi, My name is Furqon (call me 'alfynn) 👋
 
-I just want to share what I know. My interests are Hackintosh, Cyptocurencies,Blockchain Enthusiasts, also ethical Hacking,Tips&Trick.
-
+I just want to share what I know. <br> My interests are Hackintosh, Cyptocurencies,Blockchain Enthusiasts, also ethical Hacking,Tips&Trick.
 <br>
-<br>
+
 ## 📬 Get in touch
 
-[![Telegram](https://img.shields.io/badge/Telegram-@Edwinbagas7-orange)](https://t.me/edwinbagas7)
-[![EMAIL](https://img.shields.io/badge/Email-caturmahdi.alfurqon@icloud.com-blue)](mailto:caturmahdi.alfurqon@icloud.com)
+[![Telegram](https://img.shields.io/badge/Telegram-DMme-orange)](https://t.me/edwinbagas7)
+[![EMAIL](https://img.shields.io/badge/Email-caturmahdialfurqon-blue)](mailto:caturmahdi.alfurqon@icloud.com)
 <br>
 ## 🤜🏻🤛🏻 For Support
 
@@ -38,6 +37,7 @@ You can support me.
 
 <br>
 ### ❗️ Code My Soul.. :') ➡️
+
 ```go
 package main
 
@@ -66,4 +66,6 @@ func main() {
   fmt.Println("Connect with me on Twitter:", me.Twitter)
 }
 ```
----
+> Your Exspression after read this `about`
+
+![meh](/assets/img/docimg/doncare.gif)
