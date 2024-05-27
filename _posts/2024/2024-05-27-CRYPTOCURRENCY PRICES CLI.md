@@ -3,9 +3,9 @@ layout: post
 title: CRYPTOCURRENCY PRICES CLI
 date: 2024-05-27 12:12:12 +07:00
 categories: [script]
-tags: [tools,script]
+tags: [tools,script,cryptocurrencies]
 description: Script Tools for checking cryptocurrency prices and more on your Terminal
-image: /assets/img/Post/price-cli/price.png
+image: assets/img/Post/price-cli/price.gif
 alt: "image alt text"
 comments: true
 ---
@@ -170,8 +170,8 @@ below stop keep running mode
 
 ```
 
- I use PHP `7.4.33` (cli).
-{: ,prompt-warning }
+> I use PHP `7.4.33` (cli).
+{: .prompt-warning }
 
 - [x] Just copy paste code into yout fav text editor and save it in php extention.
 
@@ -188,7 +188,7 @@ open file directory and type `on your terminal`:
 ```bash
 php price.php or ./price.php 
 ```
-if you choose ./price.php dont forget to change mod for the file with `chmod +x`
+> if you choose ./price.php dont forget to change mod for the file with `chmod +x`
 {: .prompt-tip }
 
 ## This the script look like when your running it.
