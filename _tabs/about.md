@@ -52,7 +52,7 @@ type Profile struct {
 
 func main() {
   me := &Profile{
-    Language: "PHP,PYTHON,C#,C++,SWIFT,GO,SQL",
+    Language: "Ruby,Perl,PHP,PYTHON,C#,C++,SWIFT,GO,SQL,Bash",
     Interest: "Blockchain,Hackintosh,thinking",
     Instagram: "@thesilentreal",
     Twitter:   "@furqonflynn",
