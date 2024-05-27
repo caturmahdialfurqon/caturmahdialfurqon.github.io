@@ -38,7 +38,7 @@ social:
   email: caturmahdi.alfurqon@icloud.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/furqonflynn # change to your twitter homepage
+    # https://twitter.com/ # change to your twitter homepage
     - https://github.com/caturmahdialfurqon # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -86,7 +86,7 @@ pageviews:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light | dark]
+theme_mode: dark # [light | dark]
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
