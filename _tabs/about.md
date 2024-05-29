@@ -11,7 +11,7 @@ alt: "image alt text"
 
 ## Hi, My name is Furqon (call me 'alfynn) 👋
 
-I just want to share what I know. <br> My interests are Hackintosh, Cyptocurencies,Blockchain Enthusiasts, also ethical Hacking,Tips&Trick.
+I just want to share what I know. <br> My interests are Web scraping, Hackintosh, Cyptocurencies,Blockchain Enthusiasts, also ethical Hacking,Tips&Trick.
 <br>
 
 ## 📬 Get in touch
