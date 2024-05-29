@@ -4,20 +4,20 @@
 
 @mixin dark-scheme {
   /* Framework color */
-  --main-bg: #000000;
+  --main-bg: #000033;
   --mask-bg: #00cc00;
-  --main-border-color: #ff8000;
+  --main-border-color: #00BFFF;
 
   /* Common color */
   --text-color: rgb(175, 176, 177);
   --text-muted-color: #868686;
   --text-muted-hightlight-color: #aeaeae;
-  --heading-color: #cccccc;
+  --heading-color: rgb(255, 255, 255, 0.95);
   --label-color: #a7a7a7;
   --blockquote-border-color: rgb(66, 66, 66);
   --blockquote-text-color: #868686;
   --link-color: rgb(255, 255, 255, 0.95);
-  --link-underline-color: #ff8000;
+  --link-underline-color: #00BFFF;
   --button-bg: #1e1e1e;
   --btn-border-color: #2e2f31;
   --btn-backtotop-color: var(--text-color);
@@ -35,17 +35,17 @@
   );
 
   /* Sidebar */
-  --site-title-color: #666666;
+  --site-title-color: #aeaeae;
   --site-subtitle-color: #666666;
-  --sidebar-bg: #000000;
+  --sidebar-bg: url('/assets/img/docimg/bcg.gif');
   --sidebar-border-color: #292928;
   --sidebar-muted-color: #868686;
-  --sidebar-active-color: #ff8000;
+  --sidebar-active-color: rgb(255, 255, 255, 0.95);
   --sidebar-hover-bg: #000033;
   --sidebar-btn-bg: #232328;
   --sidebar-btn-color: #787878;
-  --avatar-border-color: #ff8000;
-
+  --avatar-border-color: rgb(255, 255, 255, 0.95);
+  
   .tagline {
     font-size: 1em;
     font-weight: bold;
@@ -53,7 +53,7 @@
     // $neon-blue: rgb(0, 150, 255);
     // $neon-pink: rgb(255, 150, 200);
     // $neon-colors: ($neon-green, $neon-blue, $neon-pink);
-    color: #ff8000;
+    color: rgb(255, 255, 255, 0.95);
     position: relative;
     animation: blink 2.5s linear infinite;
     //animation: blink-rgb 2s linear infinite; /* Animation settings */
@@ -98,9 +98,9 @@
     }
   }
   /* Topbar */
-  --topbar-bg: #000000;
+  --topbar-bg: #000033;
   --topbar-text-color: var(--text-color);
-  --search-border-color: #ff8000;
+  --search-border-color: #00BFFF;
   --search-icon-color: rgb(100, 102, 105);
   --input-focus-border-color: rgb(112, 114, 115);
 
@@ -121,7 +121,7 @@
   --card-bg: #000033;
   --card-hovor-bg: #464d51;
   --card-shadow: rgb(255, 255, 255, 0.62) 0 6px 18px 0,
-  #ff8000 0 0 0 1px;
+  #00BFFF 0 0 0 1px;
   --kbd-wrap-color: #6a6a6a;
   --kbd-text-color: #d3d3d3;
   --kbd-bg-color: #242424;
@@ -136,19 +136,19 @@
   --prompt-danger-icon-color: #cd0202;
 
   /* tags */
-  --tag-border: #00cc00;
+  --tag-border: #00BFFF;
   --tag-shadow: rgb(32, 33, 33);
   --dash-color: rgb(63, 65, 68);
   --search-tag-bg: #292828;
 
   /* categories */
-  --categories-border: rgb(64, 66, 69, 0.5);
-  --categories-hover-bg: rgb(73, 75, 76);
+  --categories-border: #00BFFF;
+  --categories-hover-bg: rgb(32, 33, 33);
   --categories-icon-hover-color: white;
 
   /* archives */
-  --timeline-node-bg: #00cc00;
-  --timeline-color: #ff8000;
+  --timeline-node-bg: rgb(255, 255, 255, 0.95);
+  --timeline-color: #00BFFF;
   --timeline-year-dot-color: var(--timeline-color);
 
   .light {
@@ -163,7 +163,7 @@
 
   .categories {
     .card-header {
-      background-color: var(--card-header-bg);
+      background-color: rgb(63, 65, 68);
     }
 
     .list-group-item {
