@@ -25,3 +25,11 @@ export function sidebarExpand() {
 
   document.getElementById('mask').addEventListener('click', SidebarUtil.toggle);
 }
+
+const tagline = document.querySelector('.tagline');
+
+function toggleAnimation() {
+  tagline.classList.toggle('animated'); // Add or remove 'animated' class
+}
+
+tagline.addEventListener('click', toggleAnimation);

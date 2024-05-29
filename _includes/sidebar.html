@@ -10,11 +10,17 @@
         <img src="{{- avatar_url -}}" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
       {%- endif -%}
     </a>
-
+    <!-- <ul class="site-subtitle mb-0">
+      <li>{{ site.tagline }}</li>
+    </ul> -->
+    
     <h1 class="site-title">
       <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
     </h1>
-    <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
+    <p class="tagline mb-0"> {{ site.tagline }}
+    </p>
+    <!-- <h2 class="tagline mb-0">The Logic is My Muse</h2> -->
+
   </header>
   <!-- .profile-wrapper -->
 

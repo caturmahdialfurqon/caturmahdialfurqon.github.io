@@ -46,6 +46,57 @@
   --sidebar-btn-color: #787878;
   --avatar-border-color: #ff8000;
 
+  .tagline {
+    font-size: 1em;
+    font-weight: bold;
+    // $neon-green: rgb(200, 255, 0);
+    // $neon-blue: rgb(0, 150, 255);
+    // $neon-pink: rgb(255, 150, 200);
+    // $neon-colors: ($neon-green, $neon-blue, $neon-pink);
+    color: #ff8000;
+    position: relative;
+    animation: blink 2.5s linear infinite;
+    //animation: blink-rgb 2s linear infinite; /* Animation settings */
+    //animation: blink-rgb 3s steps(3) infinite;
+  }
+
+  // @keyframes blink-rgb {
+  //   0% {
+  //     color: $neon-colors[1]; /* Start with first color */
+  //   }
+  //   33% {
+  //     color: $neon-colors[2]; /* Second color */
+  //   }
+  //   66% {
+  //     color: $neon-colors[3]; /* Third color */
+  //   }
+  //   100% {
+  //     color: $neon-colors[1]; /* Back to first color */
+  //   }
+  // }
+  
+
+
+  // @keyframes blink-rgb {
+  //   0%, 50% {
+  //     color: #333; /* Initial color */
+  //   }
+  //   100% {
+  //     color: rgb(255, 150, 200)
+  //   }
+  // }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
   /* Topbar */
   --topbar-bg: #000000;
   --topbar-text-color: var(--text-color);
