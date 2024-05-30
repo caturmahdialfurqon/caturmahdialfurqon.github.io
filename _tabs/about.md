@@ -6,9 +6,7 @@ alt: "image alt text"
 ---
 
 <!-- ![Furqonic](https://res.cloudinary.com/dlked0a5j/image/upload/v1716549244/photo_2024-05-24_18.13.35_g9fwb2.jpg) -->
-<!-- <img src="/assets/img/Post/My-first-post-test/AV4.jpeg" w="700" h="400"> -->
-![meh](/assets/img/docimg/bean.gif){: w="200" h="500" .right }
-
+![cheers](/assets/img/docimg/about.jpeg)
 ## Hey there,! Greetings from the other side of the world!👋
 <br>
 
@@ -43,9 +41,9 @@ func main() {
 	fmt.Println("Connect with me on Mastodon:", me.Mastodon)
 }
 ```
-> Just run this code, to see my Profile. With the `command` below!
+> Just run this code, to see my Profile.
 {: .prompt-tip }
-
+> With the `command` below!
 ```bash
 go run profile.go
 ```
@@ -72,6 +70,6 @@ You can support me.
 <br>
 [![LTC Furqonic](https://img.shields.io/badge/MATIC-0x07Fe74030B01B1F9A9c2699929d7CAFDa66Ebf06-informational.svg?style=flat)](https://pastebin.com/raw/Z57X2iwX)
 <br>
-> Your Exspression after read this `about`
-
-![meh](/assets/img/docimg/doncare.gif)
+> Cheers to you!
+{: .prompt-warning }
+![cheers](/assets/img/docimg/Cheers2u.gif)
