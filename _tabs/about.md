@@ -41,7 +41,60 @@ func main() {
 	fmt.Println("Connect with me on Mastodon:", me.Mastodon)
 }
 ```
-> Just run this code, to see my Profile.
+> `Without` color output!
+> {: .prompt-warning }
+
+```go
+package main
+
+import (
+	"fmt"
+
+	"github.com/fatih/color"
+)
+
+type Profile struct {
+	Language  string
+	Interest  string
+	Instagram string
+	Mastodon  string
+}
+
+func main() {
+	me := &Profile{
+		Language:  "HTML, CSS, JavaScript, Python, Java, PHP,Ruby,Perl,GO,SQL,Bash.",
+		Interest:  "Web Scraping,Blockchain,Ethical Hacking,Hackintosh,and Tips&Trick.",
+		Instagram: "@thesilentreal",
+		Mastodon:  "@furqonflynn",
+	}
+
+	// Print profile information using color package
+
+	// Welcome message
+	welcome := color.New(color.FgHiCyan)
+	fmt.Println(welcome.Sprint("Hi! My Name is "), color.New(color.Bold).Sprint("furqonflynn, (call me ‘alfynn) !"))
+	fmt.Println(welcome.Sprint("I just want to share what I know.\n"))
+	fmt.Println(color.New(color.FgGreen).Sprint("I’m a full stack software engineer passionate about Web Development"))
+	// Skills and Interests
+	fmt.Println(color.New(color.FgHiMagenta).Sprint("\nI am proficient in:"))
+	fmt.Println(me.Language)
+	fmt.Println(color.New(color.FgHiMagenta).Sprint("\nMy interests include:"))
+	fmt.Println(me.Interest)
+	// Social Media
+	fmt.Println(color.New(color.FgYellow).Sprint("\nFollow me on Instagram:"), me.Instagram)
+	fmt.Println(color.New(color.FgYellow).Sprint("Connect with me on Mastodon:"), me.Mastodon)
+}
+
+```
+> `With` color output! using package [/fatih/color](github.com/fatih/color)
+
+> You need to install the fatih/color package:
+{: .prompt-tip }
+Use the following command:
+```bash
+go get -u github.com/fatih/color
+```
+> Just run the code, to see my Profile. `XD`
 {: .prompt-tip }
 > With the `command` below!
 ```bash
