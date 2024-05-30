@@ -86,10 +86,11 @@ func main() {
 }
 
 ```
-> `With` color output! using package [/fatih/color](github.com/fatih/color)
+> `With` color output! using package [/fatih/color](https://github.com/fatih/color)
 
 > You need to install the fatih/color package:
 {: .prompt-tip }
+
 Use the following command:
 ```bash
 go get -u github.com/fatih/color
