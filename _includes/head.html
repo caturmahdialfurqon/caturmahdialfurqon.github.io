@@ -8,11 +8,11 @@
     name="viewport"
     content="width=device-width, user-scalable=no initial-scale=1, shrink-to-fit=no, viewport-fit=cover"
   >
+
   {%- capture seo_tags -%}
     {% seo title=false %}
   {%- endcapture -%}
-  <script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
-  <coingecko-coin-price-marquee-widget  coin-ids="bitcoin,ethereum,litecoin,ripple,solana,binancecoin,cardano,dogecoin,shiba-inu,notcoin,balancer,altlayer,jupiter-exchange-solana,the-open-network,avalanche-2,tron,polkadot,matic-network,uniswap,near,pepe,hedera-hashgraph,cosmos,arbitrum,mantle,stellar,bonk,celestia,ondo-finance,algorand,gala,pyth-network,worldcoin-wld,wormhole,the-sandbox" class="fixed-widget" currency="usd" background-color="#010233" locale="en" font-color="#00BFFF"></coingecko-coin-price-marquee-widget>
+
   <!-- Setup Open Graph image -->
 
   {% if page.image %}
@@ -98,7 +98,7 @@
   {% endif %}
 
   <!-- JavaScript -->
-
+  <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script><div id="coinmarketcap-widget-marquee" coins="1,1027,825,5426,5728,29210,29073,74,5994,28850,11419,3890" currency="USD" theme="dark" show-symbol-logo="true"></div>
   {% unless site.theme_mode %}
     {% include mode-toggle.html %}
   {% endunless %}

@@ -7,8 +7,7 @@
 {%- endif -%}
 ';
 
-/* append your custom style below */
-
+//=====================================================================
 
 #panel-wrapper .panel-heading{
   color: #00BFFF;
@@ -34,12 +33,32 @@ color:  #00BFFF;
 }
 
 #sidebar {
+  --site-subtitle-color: rgb(255, 255, 255, 0.95);
+  --sidebar-bg: url('/assets/img/docimg/bcg.gif');
   background-size: cover;
+  --sidebar-active-color: rgb(255, 255, 255, 0.95);
+  --avatar-border-color: rgb(255, 255, 255, 0.95);
+  --sidebar-hover-bg: #000033;
+  
+}
+
+#archives {
+  --timeline-node-bg: rgb(255, 255, 255, 0.95);
+  --timeline-color: #00BFFF;
+}
+
+#categories {
+  --categories-border: #00BFFF;
 }
 
 body {
-
+  --main-bg: #000033;
+  --mask-bg: #00cc00;
+  --main-border-color: #00BFFF;
   background-size: auto;
+  --card-bg: #000033;
+  --card-shadow: rgb(255, 255, 255, 0.62) 0 6px 18px 0,
+  #00BFFF 0 0 0 1px;
 }
 
 #topbar-wrapper {
@@ -111,11 +130,34 @@ white-space: nowrap;
 --bs-gradient: none;
 }
 
-// .fixed-widget {
-//   position: fixed;
-//   top: 0; /* Adjust top position as needed */
-//   left: 0; /* Adjust left position as needed */
-//   width: 100%; /* Or set a specific width */
-//   z-index: 10; /* Ensure the widget stays on top of other content */
-// }
+%link-hover {
+  color: #FF0000 !important;
+  border-bottom: 1px solid #00BFFF;
+}
+  
+.tagline {
+  font-size: 1em;
+  font-weight: bold;
+  color: rgb(255, 255, 255, 0.95);
+  position: relative;
+  animation: blink 2.5s linear infinite;
+}
 
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+//=====================================================================

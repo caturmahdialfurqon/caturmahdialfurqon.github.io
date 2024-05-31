@@ -4,9 +4,9 @@
 
 @mixin dark-scheme {
   /* Framework color */
-  --main-bg: #000033;
-  --mask-bg: #00cc00;
-  --main-border-color: #00BFFF;
+  --main-bg: rgb(27, 27, 30);
+  --mask-bg: rgb(68, 69, 70);
+  --main-border-color: rgb(44, 45, 45);
 
   /* Common color */
   --text-color: rgb(175, 176, 177);
@@ -17,7 +17,7 @@
   --blockquote-border-color: rgb(66, 66, 66);
   --blockquote-text-color: #868686;
   --link-color: rgb(255, 255, 255, 0.95);
-  --link-underline-color: #00BFFF;
+  --link-underline-color: rgb(82, 108, 150);
   --button-bg: #1e1e1e;
   --btn-border-color: #2e2f31;
   --btn-backtotop-color: var(--text-color);
@@ -35,72 +35,21 @@
   );
 
   /* Sidebar */
-  --site-title-color: #aeaeae;
-  --site-subtitle-color: #666666;
-  --sidebar-bg: url('/assets/img/docimg/bcg.gif');
-  --sidebar-border-color: #292928;
+  --site-title-color: #717070;
+  --site-subtitle-color: #868686;
+  --sidebar-bg: #1e1e1e;
+  --sidebar-border-color: #292929;
   --sidebar-muted-color: #868686;
   --sidebar-active-color: rgb(255, 255, 255, 0.95);
-  --sidebar-hover-bg: #000033;
+  --sidebar-hover-bg: #262626;
   --sidebar-btn-bg: #232328;
   --sidebar-btn-color: #787878;
-  --avatar-border-color: rgb(255, 255, 255, 0.95);
-  
-  .tagline {
-    font-size: 1em;
-    font-weight: bold;
-    // $neon-green: rgb(200, 255, 0);
-    // $neon-blue: rgb(0, 150, 255);
-    // $neon-pink: rgb(255, 150, 200);
-    // $neon-colors: ($neon-green, $neon-blue, $neon-pink);
-    color: rgb(255, 255, 255, 0.95);
-    position: relative;
-    animation: blink 2.5s linear infinite;
-    //animation: blink-rgb 2s linear infinite; /* Animation settings */
-    //animation: blink-rgb 3s steps(3) infinite;
-  }
+  --avatar-border-color: rgb(206, 206, 206, 0.9);
 
-  // @keyframes blink-rgb {
-  //   0% {
-  //     color: $neon-colors[1]; /* Start with first color */
-  //   }
-  //   33% {
-  //     color: $neon-colors[2]; /* Second color */
-  //   }
-  //   66% {
-  //     color: $neon-colors[3]; /* Third color */
-  //   }
-  //   100% {
-  //     color: $neon-colors[1]; /* Back to first color */
-  //   }
-  // }
-  
-
-
-  // @keyframes blink-rgb {
-  //   0%, 50% {
-  //     color: #333; /* Initial color */
-  //   }
-  //   100% {
-  //     color: rgb(255, 150, 200)
-  //   }
-  // }
-  
-  @keyframes blink {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
   /* Topbar */
-  --topbar-bg: #000033;
+  --topbar-bg: rgb(27, 27, 30, 0.64);
   --topbar-text-color: var(--text-color);
-  --search-border-color: #00BFFF;
+  --search-border-color: rgb(55, 55, 55);
   --search-icon-color: rgb(100, 102, 105);
   --input-focus-border-color: rgb(112, 114, 115);
 
@@ -118,10 +67,10 @@
   --footnote-target-bg: rgb(63, 81, 181);
   --btn-share-color: #6c757d;
   --btn-share-hover-color: #bfc1ca;
-  --card-bg: #000033;
+  --card-bg: #1e1e1e;
   --card-hovor-bg: #464d51;
-  --card-shadow: rgb(255, 255, 255, 0.62) 0 6px 18px 0,
-  #00BFFF 0 0 0 1px;
+  --card-shadow: rgb(21, 21, 21, 0.72) 0 6px 18px 0,
+    rgb(137, 135, 135, 0.24) 0 0 0 1px;
   --kbd-wrap-color: #6a6a6a;
   --kbd-text-color: #d3d3d3;
   --kbd-bg-color: #242424;
@@ -143,12 +92,12 @@
 
   /* categories */
   --categories-border: #00BFFF;
-  --categories-hover-bg: rgb(32, 33, 33);
+  --categories-hover-bg: rgb(73, 75, 76);
   --categories-icon-hover-color: white;
 
   /* archives */
-  --timeline-node-bg: rgb(255, 255, 255, 0.95);
-  --timeline-color: #00BFFF;
+  --timeline-node-bg: rgb(150, 152, 156);
+  --timeline-color: rgb(63, 65, 68);
   --timeline-year-dot-color: var(--timeline-color);
 
   .light {
@@ -163,7 +112,14 @@
 
   .categories {
     .card-header {
-      background-color: rgb(63, 65, 68);
+      background-image: linear-gradient(
+        to left,
+        rgb(19,61,78),
+        rgb(39, 39, 45),
+        rgb(39, 39, 45),
+        rgb(39, 39, 45),
+        rgb(19,61,78)
+      );
     }
 
     .list-group-item {
@@ -181,11 +137,11 @@
   #archives li:nth-child(odd) {
     background-image: linear-gradient(
       to left,
-      rgb(26, 26, 30),
+      rgb(19,61,78),
       rgb(39, 39, 45),
       rgb(39, 39, 45),
       rgb(39, 39, 45),
-      rgb(26, 26, 30)
+      rgb(19,61,78)
     );
   }
 
