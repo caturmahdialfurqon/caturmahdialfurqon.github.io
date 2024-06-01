@@ -1,6 +1,6 @@
 ---
 # the default layout is 'page'
-icon: fas fa-info-circle
+icon: fa-solid fa-address-card
 order: 4
 alt: "image alt text"
 ---
