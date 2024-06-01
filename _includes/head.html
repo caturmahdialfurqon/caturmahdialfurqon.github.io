@@ -98,7 +98,9 @@
   {% endif %}
 
   <!-- JavaScript -->
-  <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script><div id="coinmarketcap-widget-marquee" coins="1,1027,825,5426,5728,29210,29073,74,5994,28850,11419,3890" currency="USD" theme="dark" show-symbol-logo="true"></div>
+  <script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
+  <coingecko-coin-price-marquee-widget  coin-ids="bitcoin,ethereum,ripple,tether,solana,jupiter-exchange-solana,balancer,altlayer,binancecoin,dogecoin,shiba-inu,notcoin,the-open-network,terra-luna-2,radix,umee" currency="usd" background-color="#000033" locale="en" font-color="rgb(255, 255, 255, 0.95)"></coingecko-coin-price-marquee-widget>
+  <!-- <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script><div id="coinmarketcap-widget-marquee" coins="1,1027,825,5426,5728,29210,29073,74,5994,28850,11419,3890" currency="USD" theme="dark" show-symbol-logo="true"></div> -->
   {% unless site.theme_mode %}
     {% include mode-toggle.html %}
   {% endunless %}

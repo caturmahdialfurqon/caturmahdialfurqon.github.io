@@ -52,10 +52,9 @@ color:  #00BFFF;
 }
 
 body {
-  --main-bg: #000033;
+  --main-bg: rgba(0, 0, 51, 1.0);
   --mask-bg: #00cc00;
   --main-border-color: #00BFFF;
-  background-size: auto;
   --card-bg: #000033;
   --card-shadow: rgb(255, 255, 255, 0.62) 0 6px 18px 0,
   #00BFFF 0 0 0 1px;
@@ -154,6 +153,7 @@ white-space: nowrap;
     opacity: 1;
   }
 }
+
 
 
 
