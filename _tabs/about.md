@@ -9,6 +9,15 @@ alt: "image alt text"
 ![cheers](/assets/img/docimg/code1.jpeg){: w="1500" h="500" }
 ## Hey there,! Greetings from the other side of the world!👋
 <br>
+<hr>
+ My Name is `Catur Mahdi Al Furqon` known As `Furqonflynn` (you can call me `alfynn`) 👋, <br>
+I’m a full stack software engineer passionate about Web Development. <br> In this DOCS I just want to share what I know. <br>
+My interests include: <span style="color: #FF0000 !important;">Web Scraping,Blockchain,Ethical Hacking,Hackintosh.</span> <br>
+I am proficient in: <span style="color: #FF0000 !important;">HTML, CSS, JavaScript, Python, Java, PHP,Ruby,Perl,GO,SQL,Bash.</span>
+<hr>
+
+> For you `who` love Coding... you can try code below `written with GO` to see my Profile(Portofolio).
+{: .prompt-tip }
 
 ## ❗️Coding is My Canvas... ➡️
 
