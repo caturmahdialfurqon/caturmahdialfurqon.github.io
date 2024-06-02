@@ -5,7 +5,7 @@ date: 2024-05-27 12:12:12 +07:00
 categories: [Script,Tools]
 tags: [tools,script,cryptocurrencies]
 description: Script Tools for checking cryptocurrency prices and more on your Terminal
-image: assets/img/Post/price-cli/price.gif
+image: assets/img/Post/price-cli/bitcoin.gif
 alt: "image alt text"
 comments: true
 ---

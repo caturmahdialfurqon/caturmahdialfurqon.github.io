@@ -5,7 +5,7 @@ date: 2024-05-28 06:06:06 +07:00
 categories: [HOW TO,Trick]
 tags: [trick]
 description: Easy Trick To get UNLIMITED LICENSE for Sublime Text
-image: assets/img/Post/sublime/sublime.png
+image: assets/img/Post/sublime/un.gif
 alt: "image alt text"
 comments: true
 ---

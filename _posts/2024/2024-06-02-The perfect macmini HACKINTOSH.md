@@ -5,7 +5,7 @@ date: 2024-06-02 19:13:24 +07:00
 categories: [Hackintosh]
 tags: [hackintosh]
 description: Perfect Hackintosh HP Elitdesk 800 G4 DM 35W, with SMBIOS MACMINI 2018
-image: /assets/img/Post/The-Perfect-MacMini-Hackintosh/macdis.gif
+image: /assets/img/Post/The-Perfect-MacMini-Hackintosh/hackmini.gif
 alt: "image alt text"
 comments: true
 ---
