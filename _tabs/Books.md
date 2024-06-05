@@ -1,7 +1,7 @@
 ---
 title: Books
 icon: fa-solid fa-book-open
-order: 5
+order: 4
 ---
 
 ![mybooks](/assets/img/books/mybook.gif){: w="1500" h="500" }

@@ -1,7 +1,7 @@
 ---
 title: Anime
 icon: fa-solid fa-video fa-fw
-order: 8
+order: 7
 ---
 
 <hr>

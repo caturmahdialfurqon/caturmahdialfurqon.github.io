@@ -2,9 +2,9 @@
 layout: post
 title: SSL CHECKER AND REVERSE IP
 date: 2024-05-28 03:03:03 +07:00
-categories: [Script]
-tags: [tools,script]
-description: Script Tools for checking SSL CHECKER AND REVERSE IP on your Terminal
+categories: [Script,Web Scraping, Data Scraping]
+tags: [tools,script,PHP]
+description: Script Tools For Checking SSL AND REVERSE IP On Your Terminal
 image: assets/img/Post/ssl-reverse-ip/ssl.gif
 alt: "image alt text"
 comments: true
