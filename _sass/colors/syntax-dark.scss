@@ -3,17 +3,17 @@
  */
 
 @mixin dark-syntax {
-  --language-border-color: #2d2d2d;
-  --highlight-bg-color: #151515;
+  --language-border-color:#00BFFF;
+  --highlight-bg-color: silver;
   --highlighter-rouge-color: #c9def1;
-  --highlight-lineno-color: #808080;
-  --inline-code-bg: #323238;
-  --code-color: #b0b0b0;
-  --code-header-text-color: #6a6a6a;
-  --code-header-muted-color: #353535;
-  --code-header-icon-color: #565656;
-  --clipboard-checked-color: #2bcc2b;
-  --filepath-text-color: #cacaca;
+  --highlight-lineno-color: #00BFFF;
+  --inline-code-bg: #FF0000 !important;
+  --code-color: rgb(255, 255, 255, 0.95);
+  --code-header-text-color: rgb(255, 255, 255, 0.95);
+  --code-header-muted-color: #000033;
+  --code-header-icon-color: #FF0000 !important;
+  --clipboard-checked-color: #000033;
+  --filepath-text-color: rgb(255, 255, 255, 0.95);
 
   .highlight .gp {
     color: #87939d;
