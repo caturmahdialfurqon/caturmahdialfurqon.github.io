@@ -24,3 +24,6 @@ package-lock.json
 # Misc
 _sass/dist
 assets/js/dist
+
+# DS_Store
+.DS_Store
