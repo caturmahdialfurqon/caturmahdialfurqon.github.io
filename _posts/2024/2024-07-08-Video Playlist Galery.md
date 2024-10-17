@@ -454,3 +454,5 @@ echo "\033[1;33mGenerated HTML file saved to: $filePath\033[0m";
 ## For Older Version
 
 Visit My Github Repository Here : [SINGLE-FILE-HTML-OFFLINE-GALERY-OR-VIDEOS ](https://github.com/caturmahdialfurqon/SINGLE-FILE-HTML-OFFLINE-GALERY-OR-VIDEOS)
+
+For New Release : [Update to version 1.0.1](https://github.com/caturmahdialfurqon/Video-Playlist-Gallery/releases/tag/single-html-gallery)

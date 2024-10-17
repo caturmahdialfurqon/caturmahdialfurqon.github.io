@@ -42,3 +42,7 @@ This trick Tested ON Sublime_Text_Build_4169_ `Mac` AND `Windows`
 {: .prompt-warning }
 
 if you in windows it just the same (a little differences).
+
+For Update you can visit my new repo here :
+
+Sublime-Text-Patching : [Simple Script Patching](https://github.com/caturmahdialfurqon/Sublime-Text-Patching)
