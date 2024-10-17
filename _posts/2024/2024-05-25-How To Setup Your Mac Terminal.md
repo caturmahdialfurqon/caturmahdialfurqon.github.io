@@ -5,7 +5,7 @@ date: 2024-05-25 18:18:15 +07:00
 categories: [HOW TO,Tips]
 tags: [Tips&Trick]
 description: Customize Your Mac Terminal (Iterm2) with ZSH
-image: assets/img/Post/How-To-Setup-Your-Mac-Terminal/iterm.gif
+image: /assets/img/Post/How-To-Setup-Your-Mac-Terminal/terminal.jpeg
 alt: "image alt text"
 comments: true
 ---

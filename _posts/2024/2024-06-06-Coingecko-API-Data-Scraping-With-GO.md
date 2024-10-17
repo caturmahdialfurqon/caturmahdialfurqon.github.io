@@ -5,7 +5,7 @@ date: 2024-06-06 00:16:18 +07:00
 categories: [Web Scraping, Data Scraping]
 tags: [webscraping, golang,cryptocurrencies]
 description: Scraping CryptoCurrency Data Like "Price, MarketCap, Supply, etc". Using Terminal CLI,Written in Go.
-image: /assets/img/Post/Coingecko-API-Data-Scraping-With-GO/main.gif
+image: /assets/img/Post/Coingecko-API-Data-Scraping-With-GO/LiveCryptoPriceTicker.gif
 alt: "image alt text"
 comments: true
 ---
