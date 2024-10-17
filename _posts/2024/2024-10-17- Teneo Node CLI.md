@@ -340,4 +340,4 @@ setInterval(autoLogin, 3600000);
 
 ## Release on my Github Repo
 
-Teneo Node Update [New Release Teneo Node Cli](https://github.com/caturmahdialfurqon/TENEO-NODE-CLI/releases/tag/AutoReconnect-Teneo-Node)
+Teneo Node Update [New Release Teneo Node CLI](https://github.com/caturmahdialfurqon/TENEO-NODE-CLI/releases/tag/AutoReconnect-Teneo-Node)
