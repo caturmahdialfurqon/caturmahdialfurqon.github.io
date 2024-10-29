@@ -34,12 +34,13 @@ color:  #00BFFF;
 
 #sidebar {
   --site-subtitle-color: rgb(255, 255, 255, 0.95);
+  --site-title-color: rgb(255, 255, 255, 0.95);
   --sidebar-bg: url('/assets/img/docimg/bcg.gif');
   background-size: cover;
   --sidebar-active-color: rgb(255, 255, 255, 0.95);
   --avatar-border-color: rgb(255, 255, 255, 0.95);
   --sidebar-hover-bg: #000033;
-  
+
 }
 
 #archives {
@@ -142,18 +143,17 @@ white-space: nowrap;
   animation: blink 2.5s linear infinite;
 }
 
-@keyframes blink {
-  0% {
-    opacity: 1;
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 
 
 
