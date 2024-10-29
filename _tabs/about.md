@@ -67,7 +67,7 @@ main();
 
   [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Creepster&size=25&color=FFFFFF&left=true&lines=Buy+Me+Coffee!.....)](https://git.io/typing-svg)
 
-  [![ME Furqonic](https://img.shields.io/badge/SUPPORT-ME-succsess.svg?style=flat)](Support)
+  [![ME Furqonic](https://img.shields.io/badge/SUPPORT-ME-succsess.svg?style=flat)](https://caturmahdialfurqon.github.io/)
   <br>
   [![Paypal.me/caturmahdialfurqon](https://ionicabizau.github.io/badges/paypal.svg)](https://paypal.me/caturmahdialfurqon)
   <br>
